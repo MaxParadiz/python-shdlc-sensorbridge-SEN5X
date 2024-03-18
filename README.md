@@ -17,6 +17,8 @@ But in the process I have found that, by interfacing the device with python, it 
 
 I am also including some instructions on how to set up a postgresql database and how to populate it from the sensor's output data. This structure is very conveninent if you would like to collect continuous data. With this structure, you can measure continuously for 1 year at 1 sample per second and your database will weight about 3.65 GB. This is probably a good way of handling the data acquisition in a raspberry pi.
 
+Everything below this point is unmodified from the official repository (https://github.com/Sensirion/python-shdlc-sensorbridge)
+-----------
 
 
 # Python Driver for Sensirion SEK-SensorBridge
