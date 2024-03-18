@@ -1,3 +1,24 @@
+# SEN5X Python Scripts
+
+I have created a fork of Sensirion's SEK-SensorBridge and added my own scripts to it for making use of the SEN55-Sensor Bridge.
+
+To make use of this, install the SHDLC driver for the SEK SensorBridge by following the official instructions. 
+
+You can use:
+
+```
+pip install sensirion-shdlc-sensorbridge
+```
+
+My small additions can be found inside of the folder sen5x. These are scripts for interfacing with the SEN5x through the Sensor Bridge.
+
+My main motivation for this was that I could not get their software running in Arch Linux. 
+But in the process I have found that, by interfacing the device with python, it is easier to control the flow of output data.
+
+I am also including some instructions on how to set up a postgresql database and how to populate it from the sensor's output data. This structure is very conveninent if you would like to collect continuous data. With this structure, you can measure continuously for 1 year at 1 sample per second and your database will weight about 3.65 GB. This is probably a good way of handling the data acquisition in a raspberry pi.
+
+
+
 # Python Driver for Sensirion SEK-SensorBridge
 
 This repository contains the SHDLC driver for the
