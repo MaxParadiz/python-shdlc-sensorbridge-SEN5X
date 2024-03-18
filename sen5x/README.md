@@ -39,5 +39,7 @@ So far, the scripts are:
 This is a minimal script that will fetch the measurement values, store them into a dictionary, and print the values to the console. This structure can serve as the basis for more complicated scripts. 
 
 # log_data.py
-
 This script allows you to write logged data into a postgresql database
+
+# plot_values.py
+Fetch values from the postgresql database and plot them
